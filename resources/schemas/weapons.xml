@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+	<weapon name="Longsword" proficiency="3" damage="1D8" price="15" weight="4" group="Heavy blade" properties="versatile" />
+</weapons>

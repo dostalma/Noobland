@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gameSchema>
+	<locations>
+		<location code="a1" type="village" name="Amber Valley">
+			<location code="a1-b1" type="building" name="Tavern Kozlovna" buildingType="inn" residents="a1-n1;a1-n2">
+			</location>
+			<location code="a1-b2" type="building" name="Gregor's Smithy" buildingType="forge" residents="a1-n3">
+			</location>
+			<location code="a1-b3" type="building" name="Lorne's Shop" buildingType="shop" residents="a1-n4">
+			</location>
+			<location code="a1-b4" type="building" name="Friedson's House" buildingType="doctor" residents="a1-n5;a1-n6">
+			</location>
+		</location>
+	</locations>
+
+	<npcs>
+		<npc code="a1-n1" name="Whipley" role="innkeeper" />
+		<npc code="a1-n2" name="Madame Obuse" role="chef" />
+		<npc code="a1-n3" name="Gregor" role="blacksmith" />
+		<npc code="a1-n4" name="Lorne" role="shopkeeper" />
+		<npc code="a1-n5" name="Doctor Friedson" role="doctor" />
+		<npc code="a1-n6" name="Mathilde" role="herbalist" />
+	</npcs>
+</gameSchema>

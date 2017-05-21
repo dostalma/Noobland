@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+	<monster name="Decrepit Skeleton" level="1" xp="25" role="minion" hitpoints="1" bloodied="0" 
+		initiative="3" AC="16" fortitude="13" reflex="14" will="13" speed="6"
+		str="15" dex="17" con="13" int="3" wis="14" cha="3">
+		<attack name="Longsword" type="standard" usage="at-will" hit="+6 vs AC" damage="4" />
+	</monster>
+	<monster name="Gray Wolf" level="2" xp="125" role="skirmisher" hitpoints="38" bloodied="19" 
+		initiative="5" AC="16" fortitude="14" reflex="14" will="13" speed="8"
+		str="13" dex="14" con="14" int="2" wis="13" cha="10">
+		<attack name="Bite" type="standard" usage="at-will" hit="+7 vs AC" damage="1D6+2" />
+	</monster>
+</monsters>

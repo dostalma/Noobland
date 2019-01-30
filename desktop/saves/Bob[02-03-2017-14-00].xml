@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<characterInfo>
+    <character level="1" name="Bob" race="Human" uid="25e97d0b-dc69-484d-b59a-f41cdf1ad15f"/>
+    <class name="Fighter"/>
+    <abilities>
+        <ability base="14" name="WISDOM"/>
+        <ability base="10" name="CHARISMA"/>
+        <ability base="14" name="CONSTITUTION"/>
+        <ability base="13" name="DEXTERITY"/>
+        <ability base="8" name="INTELLIGENCE"/>
+        <ability base="16" name="STRENGTH"/>
+    </abilities>
+    <hitpoints base="10" current="12"/>
+    <inventory/>
+</characterInfo>

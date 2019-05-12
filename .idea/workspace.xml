@@ -2,108 +2,285 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b380ab64-603c-435e-ab07-37f7b838a80d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noobland.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/desktop.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/webapp.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/app.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/general.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/schemas/game_schema_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/schemas/weapons.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/schemas/monsters.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/desktop/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/schemas/monsters.xml" afterPath="$PROJECT_DIR$/desktop/resources/schemas/monsters.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/app.properties" afterPath="$PROJECT_DIR$/desktop/resources/app.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/general.properties" afterPath="$PROJECT_DIR$/desktop/resources/general.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/messages.properties" afterPath="$PROJECT_DIR$/desktop/resources/messages.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/schemas/game_schema_1.xml" afterPath="$PROJECT_DIR$/desktop/resources/schemas/game_schema_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/schemas/weapons.xml" afterPath="$PROJECT_DIR$/desktop/resources/schemas/weapons.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/saves/Bob[02-03-2017-14-00].xml" afterPath="$PROJECT_DIR$/desktop/saves/Bob[02-03-2017-14-00].xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/Config.java" afterPath="$PROJECT_DIR$/desktop/src/business/Config.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/Constants.java" afterPath="$PROJECT_DIR$/desktop/src/business/Constants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/Dice.java" afterPath="$PROJECT_DIR$/desktop/src/business/Dice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/Identifiable.java" afterPath="$PROJECT_DIR$/desktop/src/business/Identifiable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/SchemaCollection.java" afterPath="$PROJECT_DIR$/desktop/src/business/SchemaCollection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/action/Action.java" afterPath="$PROJECT_DIR$/desktop/src/business/action/Action.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/action/State.java" afterPath="$PROJECT_DIR$/desktop/src/business/action/State.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/action/StateEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/action/StateEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/action/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/business/action/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/ActionTypeEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/ActionTypeEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/ActionUsageEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/ActionUsageEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/CombatAction.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/CombatAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/CombatActionEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/CombatActionEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/CombatManager.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/CombatManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/Combatant.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/Combatant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/MonsterCombatant.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/MonsterCombatant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/PlayerCombatant.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/PlayerCombatant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/combat/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/business/combat/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/core/ApplicationStart.java" afterPath="$PROJECT_DIR$/desktop/src/business/core/ApplicationStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/core/GameManager.java" afterPath="$PROJECT_DIR$/desktop/src/business/core/GameManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/core/SinglePlayerManager.java" afterPath="$PROJECT_DIR$/desktop/src/business/core/SinglePlayerManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/Ability.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/Ability.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/AbilityScore.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/AbilityScore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/Creature.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/Creature.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/CreatureKeywordEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/CreatureKeywordEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/Hitpoints.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/Hitpoints.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/Monster.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/Monster.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/MonsterRoleEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/MonsterRoleEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/NPC.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/NPC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/Race.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/Race.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/creature/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/business/creature/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/environment/Building.java" afterPath="$PROJECT_DIR$/desktop/src/business/environment/Building.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/environment/BuildingEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/environment/BuildingEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/environment/Ground.java" afterPath="$PROJECT_DIR$/desktop/src/business/environment/Ground.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/environment/Localizable.java" afterPath="$PROJECT_DIR$/desktop/src/business/environment/Localizable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/environment/Location.java" afterPath="$PROJECT_DIR$/desktop/src/business/environment/Location.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/environment/PlaceEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/environment/PlaceEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/environment/StorageObject.java" afterPath="$PROJECT_DIR$/desktop/src/business/environment/StorageObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Armor.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Armor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/ArmorCategory.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/ArmorCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Consumable.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Consumable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Container.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Container.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Currency.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Currency.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Equipable.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Equipable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Gear.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Gear.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Item.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Item.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Placeable.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Placeable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Usable.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Usable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/Weapon.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/Weapon.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/WeaponCategory.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/WeaponCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/WeaponGroup.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/WeaponGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/items/WeaponProperties.java" afterPath="$PROJECT_DIR$/desktop/src/business/items/WeaponProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/business/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/ArmorSlot.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/ArmorSlot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/EquipmentSlot.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/EquipmentSlot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/Inventory.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/Inventory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/MainHandSlot.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/MainHandSlot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/OffHandSlot.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/OffHandSlot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/PlayerCharacter.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/PlayerCharacter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/classes/ClassEnum.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/classes/ClassEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/classes/ClassFeature.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/classes/ClassFeature.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/classes/Cleric.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/classes/Cleric.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/classes/Fighter.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/classes/Fighter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/classes/Rogue.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/classes/Rogue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/classes/Wizard.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/classes/Wizard.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/player/classes/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/business/player/classes/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/business/validator/InputParser.java" afterPath="$PROJECT_DIR$/desktop/src/business/validator/InputParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/data/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/persistence/PersistenceService.java" afterPath="$PROJECT_DIR$/desktop/src/data/persistence/PersistenceService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/persistence/factory/PersistenceServiceFactory.java" afterPath="$PROJECT_DIR$/desktop/src/data/persistence/factory/PersistenceServiceFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/persistence/factory/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/data/persistence/factory/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/persistence/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/data/persistence/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/persistence/xml/CharacterXmlComposer.java" afterPath="$PROJECT_DIR$/desktop/src/data/persistence/xml/CharacterXmlComposer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/persistence/xml/XMLPersistenceService.java" afterPath="$PROJECT_DIR$/desktop/src/data/persistence/xml/XMLPersistenceService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/persistence/xml/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/data/persistence/xml/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/presentation/UserInteractionService.java" afterPath="$PROJECT_DIR$/desktop/src/presentation/UserInteractionService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/presentation/console/ConsoleUIService.java" afterPath="$PROJECT_DIR$/desktop/src/presentation/console/ConsoleUIService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/presentation/console/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/presentation/console/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/presentation/factory/PresentationServiceFactory.java" afterPath="$PROJECT_DIR$/desktop/src/presentation/factory/PresentationServiceFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/presentation/factory/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/presentation/factory/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/presentation/package-info.java" afterPath="$PROJECT_DIR$/desktop/src/presentation/package-info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/noobland-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/Config.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/Dice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/Identifiable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/SchemaCollection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/action/Action.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/action/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/action/StateEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/action/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/ActionTypeEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/ActionUsageEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/CombatAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/CombatActionEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/CombatManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/Combatant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/MonsterCombatant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/PlayerCombatant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/command/Command.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/command/CommandEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/core/ApplicationStart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/core/GameManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/core/SinglePlayerManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Ability.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/AbilityScore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Creature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/CreatureKeywordEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Hitpoints.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Monster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/MonsterRoleEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/NPC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Race.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/environment/Building.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/environment/BuildingEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/environment/Ground.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/environment/Localizable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/environment/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/environment/PlaceEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/environment/StorageObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Armor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/ArmorCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Consumable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Container.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Currency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Equipable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Gear.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Placeable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Usable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/Weapon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/WeaponCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/WeaponGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/items/WeaponProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/ArmorSlot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/EquipmentSlot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/MainHandSlot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/OffHandSlot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/PlayerCharacter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/ClassEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/ClassFeature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/Cleric.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/Fighter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/Rogue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/Wizard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/business/validator/InputParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/data/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/PersistenceService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/factory/PersistenceServiceFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/factory/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/xml/CharacterXmlComposer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/xml/XMLPersistenceService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/xml/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/presentation/UserInteractionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/presentation/console/ConsoleUIService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/presentation/console/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/presentation/factory/PresentationServiceFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/presentation/factory/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noobland-core/src/main/java/presentation/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/desktop.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/Config.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/Dice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/Identifiable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/SchemaCollection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/action/Action.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/action/State.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/action/StateEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/action/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/ActionTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/ActionUsageEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/CombatAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/CombatActionEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/CombatManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/Combatant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/MonsterCombatant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/PlayerCombatant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/combat/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/core/ApplicationStart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/core/GameManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/core/SinglePlayerManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/Ability.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/AbilityScore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/Creature.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/CreatureKeywordEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/Hitpoints.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/Monster.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/MonsterRoleEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/NPC.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/Race.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/creature/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/environment/Building.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/environment/BuildingEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/environment/Ground.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/environment/Localizable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/environment/Location.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/environment/PlaceEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/environment/StorageObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Armor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/ArmorCategory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Consumable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Container.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Currency.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Equipable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Gear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Item.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Placeable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Usable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/Weapon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/WeaponCategory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/WeaponGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/items/WeaponProperties.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/ArmorSlot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/EquipmentSlot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/Inventory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/MainHandSlot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/OffHandSlot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/PlayerCharacter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/classes/ClassEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/classes/ClassFeature.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/classes/Cleric.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/classes/Fighter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/classes/Rogue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/classes/Wizard.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/player/classes/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/business/validator/InputParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/data/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/data/persistence/PersistenceService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/data/persistence/factory/PersistenceServiceFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/data/persistence/factory/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/data/persistence/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/data/persistence/xml/CharacterXmlComposer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/data/persistence/xml/XMLPersistenceService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/data/persistence/xml/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/presentation/UserInteractionService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/presentation/console/ConsoleUIService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/presentation/console/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/presentation/factory/PresentationServiceFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/presentation/factory/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/src/presentation/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/desktop.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/resources/app.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/resources/general.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/resources/messages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/resources/schemas/game_schema_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/resources/schemas/monsters.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/resources/schemas/weapons.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/saves/Bob[02-03-2017-14-00].xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/Config.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/Dice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/Identifiable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/SchemaCollection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/action/Action.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/action/State.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/action/StateEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/action/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/ActionTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/ActionUsageEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/CombatAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/CombatActionEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/CombatManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/Combatant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/MonsterCombatant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/PlayerCombatant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/combat/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/core/ApplicationStart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/core/GameManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/core/SinglePlayerManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/Ability.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/AbilityScore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/Creature.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/CreatureKeywordEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/Hitpoints.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/Monster.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/MonsterRoleEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/NPC.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/Race.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/creature/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/environment/Building.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/environment/BuildingEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/environment/Ground.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/environment/Localizable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/environment/Location.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/environment/PlaceEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/environment/StorageObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Armor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/ArmorCategory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Consumable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Container.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Currency.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Equipable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Gear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Item.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Placeable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Usable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/Weapon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/WeaponCategory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/WeaponGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/items/WeaponProperties.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/ArmorSlot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/EquipmentSlot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/Inventory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/MainHandSlot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/OffHandSlot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/PlayerCharacter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/classes/ClassEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/classes/ClassFeature.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/classes/Cleric.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/classes/Fighter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/classes/Rogue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/classes/Wizard.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/player/classes/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/business/validator/InputParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/data/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/data/persistence/PersistenceService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/data/persistence/factory/PersistenceServiceFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/data/persistence/factory/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/data/persistence/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/data/persistence/xml/CharacterXmlComposer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/data/persistence/xml/XMLPersistenceService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/data/persistence/xml/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/presentation/UserInteractionService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/presentation/console/ConsoleUIService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/presentation/console/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/presentation/factory/PresentationServiceFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/presentation/factory/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/desktop/src/presentation/package-info.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/noobland-core/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/resources/app.properties" afterPath="$PROJECT_DIR$/noobland-core/resources/app.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/resources/general.properties" afterPath="$PROJECT_DIR$/noobland-core/resources/general.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/resources/messages.properties" afterPath="$PROJECT_DIR$/noobland-core/resources/messages.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/resources/schemas/game_schema_1.xml" afterPath="$PROJECT_DIR$/noobland-core/resources/schemas/game_schema_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/resources/schemas/monsters.xml" afterPath="$PROJECT_DIR$/noobland-core/resources/schemas/monsters.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/resources/schemas/weapons.xml" afterPath="$PROJECT_DIR$/noobland-core/resources/schemas/weapons.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/saves/Bob[02-03-2017-14-00].xml" afterPath="$PROJECT_DIR$/noobland-core/saves/Bob[02-03-2017-14-00].xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noobland.iml" afterPath="$PROJECT_DIR$/Noobland.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/desktop/target/" />
+    <ignored path="$PROJECT_DIR$/noobland-core/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,96 +291,136 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/src/business/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="97" column="30" lean-forward="false" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
-              <folding>
-                <element signature="e#2314#2315#0" expanded="true" />
-                <element signature="e#2343#2344#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bob[02-03-2017-14-00].xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/saves/Bob[02-03-2017-14-00].xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SinglePlayerManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/desktop/src/business/core/SinglePlayerManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-              <folding>
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game_schema_1.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/resources/schemas/game_schema_1.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationStart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/src/business/core/ApplicationStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/resources/messages.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="XMLPersistenceService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/src/data/persistence/xml/XMLPersistenceService.java">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/xml/XMLPersistenceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="145" column="51" lean-forward="true" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+            <state relative-caret-position="43">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk1.8.0_171/src.zip!/java/util/Properties.java">
+      <file leaf-file-name="ActionUsageEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/combat/ActionUsageEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="967" column="18" lean-forward="false" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
+            <state relative-caret-position="309">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonsterRoleEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/creature/MonsterRoleEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/Dice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="51" column="7" lean-forward="false" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/action/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PresentationServiceFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/presentation/factory/PresentationServiceFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="32" column="78" lean-forward="false" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Race.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Race.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionTypeEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/combat/ActionTypeEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -217,10 +434,22 @@
       <find>System.</find>
       <find>System</find>
       <find>System.g</find>
-      <find>C:/_workspace/Eclipse_projects/Noobland/saves</find>
       <find>syste</find>
       <find>Location</find>
+      <find>nexus</find>
+      <find>Dost�l</find>
+      <find>U</find>
+      <find>UTF</find>
+      <find>d</find>
+      <find>desk</find>
+      <find>deskt</find>
+      <find>deskto</find>
+      <find>desktop</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Dostal</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -241,7 +470,39 @@
         <option value="$PROJECT_DIR$/desktop/saves/Bob[02-03-2017-14-00].xml" />
         <option value="$PROJECT_DIR$/desktop/src/business/Config.java" />
         <option value="$PROJECT_DIR$/desktop/src/data/persistence/xml/XMLPersistenceService.java" />
+        <option value="$PROJECT_DIR$/desktop/src/business/action/Action.java" />
+        <option value="$PROJECT_DIR$/desktop/src/business/command/CommandEnum.java" />
+        <option value="$PROJECT_DIR$/desktop/src/business/command/Command.java" />
+        <option value="$PROJECT_DIR$/desktop/src/presentation/console/ConsoleUIService.java" />
+        <option value="$PROJECT_DIR$/desktop/src/presentation/factory/PresentationServiceFactory.java" />
+        <option value="$PROJECT_DIR$/desktop/src/business/validator/InputParser.java" />
         <option value="$PROJECT_DIR$/desktop/src/business/core/SinglePlayerManager.java" />
+        <option value="$PROJECT_DIR$/desktop/src/business/combat/CombatManager.java" />
+        <option value="$PROJECT_DIR$/desktop/pom.xml" />
+        <option value="$PROJECT_DIR$/noobland-core/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/Identifiable.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/Constants.java" />
+        <option value="$PROJECT_DIR$/noobland-core/resources/app.properties" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/SchemaCollection.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/factory/PersistenceServiceFactory.java" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/CombatManager.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Ability.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/validator/InputParser.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/ClassFeature.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/ClassEnum.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/xml/XMLPersistenceService.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/ActionUsageEnum.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/MonsterRoleEnum.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/Dice.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/action/Action.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Race.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/combat/ActionTypeEnum.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/presentation/factory/PresentationServiceFactory.java" />
+        <option value="$PROJECT_DIR$/noobland-core/src/main/java/business/Config.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -251,11 +512,63 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="noobland-core" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="noobland-core" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="noobland" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="noobland" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1176" />
+    <option name="x" value="130" />
+    <option name="y" value="48" />
+    <option name="width" value="2750" />
+    <option name="height" value="1572" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -272,9 +585,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,7 +609,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="desktop" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,116 +620,29 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desktop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desktop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desktop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desktop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Noobland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desktop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schemas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -858,15 +1083,15 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="desktop" />
+      <module name="noobland-core" />
       <envs />
       <method>
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Desktop" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ApplicationStart" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ApplicationStart" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Desktop" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -889,47 +1114,66 @@
       <workItem from="1519133898482" duration="79000" />
       <workItem from="1519134290128" duration="1127000" />
       <workItem from="1548848036512" duration="739000" />
-      <workItem from="1548850347986" duration="5870000" />
+      <workItem from="1548850347986" duration="5933000" />
+      <workItem from="1549457897449" duration="3236000" />
+      <workItem from="1549899182703" duration="1180000" />
+      <workItem from="1551901110037" duration="947000" />
+      <workItem from="1551955544202" duration="163000" />
+      <workItem from="1551956499369" duration="204000" />
+      <workItem from="1551977942289" duration="251000" />
+      <workItem from="1552033842727" duration="27000" />
+      <workItem from="1552289380026" duration="254000" />
+      <workItem from="1552384891400" duration="18000" />
+      <workItem from="1557645371864" duration="7109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11629000" />
+    <option name="totallyTimeSpent" value="25081000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1855" height="1176" extended-state="6" />
+    <frame x="130" y="48" width="2750" height="1572" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36191678" sideWeight="0.5219373" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981217" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3320965" sideWeight="0.47816473" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41889313" sideWeight="0.4859038" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32778582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41823444" sideWeight="0.4859038" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41929498" sideWeight="0.90657824" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43632418" sideWeight="0.90657824" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.40076336" sideWeight="0.49811321" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4638219" sideWeight="0.4780627" order="13" side_tool="false" content_ui="tabs" x="530" y="421" width="924" height="354" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28912213" sideWeight="0.49595687" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9146165" sideWeight="0.4780627" order="13" side_tool="false" content_ui="tabs" x="530" y="421" width="924" height="354" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23591284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28871202" sideWeight="0.49595687" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3295238" sideWeight="0.49811321" order="11" side_tool="false" content_ui="tabs" x="2870" y="601" width="84" height="44" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295238" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -947,8 +1191,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/desktop/src/data/persistence/xml/XMLPersistenceService.java</url>
-          <line>145</line>
+          <url>file://$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/xml/XMLPersistenceService.java</url>
+          <line>141</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -962,227 +1206,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Dice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/presentation/UserInteractionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/core/ApplicationStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/resources/general.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/data/persistence/xml/XMLPersistenceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2058">
-          <caret line="140" column="36" lean-forward="true" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Dice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noobland.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/presentation/UserInteractionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Dice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noobland.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/presentation/UserInteractionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Dice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noobland.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/presentation/UserInteractionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noobland.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/resources/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1204,119 +1227,406 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Noobland.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/.settings/org.eclipse.jdt.core.prefs">
+    <entry file="file://$PROJECT_DIR$/noobland-core/.settings/org.eclipse.jdt.core.prefs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/resources/general.properties">
+    <entry file="file://$PROJECT_DIR$/noobland-core/resources/general.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/resources/messages.properties">
+    <entry file="file://$PROJECT_DIR$/noobland-core/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="357">
           <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/presentation/UserInteractionService.java">
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/presentation/UserInteractionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Dice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
+    <entry file="file://$PROJECT_DIR$/noobland-core/noobland-core.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/saves/Bob[02-03-2017-14-00].xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/resources/schemas/game_schema_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/action/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/action/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/action/StateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/saves/Bob[02-03-2017-14-00].xml">
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/presentation/console/ConsoleUIService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="360">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/command/CommandEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/core/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/core/SinglePlayerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="105" column="16" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/core/ApplicationStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noobland.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="279" column="27" lean-forward="false" selection-start-line="279" selection-start-column="27" selection-end-line="279" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/webapp.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/Identifiable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/SchemaCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/java/jdk1.8.0_171/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="446">
           <caret line="967" column="18" lean-forward="false" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/Config.java">
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/factory/PersistenceServiceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="97" column="30" lean-forward="false" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+        <state relative-caret-position="578">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/combat/CombatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Ability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/validator/InputParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/PersistenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/ClassFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1504">
+          <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/Cleric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/player/classes/ClassEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/data/persistence/xml/XMLPersistenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/combat/ActionUsageEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/data/persistence/xml/XMLPersistenceService.java">
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/creature/MonsterRoleEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="145" column="51" lean-forward="true" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/core/ApplicationStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/resources/schemas/game_schema_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/business/core/SinglePlayerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        <state relative-caret-position="446">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding>
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="51" column="7" lean-forward="false" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/action/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/creature/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/combat/ActionTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/presentation/factory/PresentationServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noobland-core/src/main/java/business/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="32" column="78" lean-forward="false" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,7 +1682,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>desktop</last-edited>
+          <last-edited>Noobland</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
